@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    font: 15px/1.5 "poppins", sans-serif;
+    background:linear-gradient(135deg,purple,pink,white)
+}
+.card{
+    display: grid;
+    grid-template-columns: 300px 230px;
+    gap:28px;
+    align-items: center;
+    padding: 28px;
+    border-radius: #fff;
+    box-shadow: 0 20px 50px #6366f126;
+}
+
+canvas{
+    border-radius: 18px;
+    background: #111927;
+}
+p, small{
+    color:#64748b;
+}
+
+.score-box{
+    margin: 18px 0 14px;
+    padding: 16px 20px;
+    border-radius: 16px;
+    color: #cbd5e1;
+    background:#1e1b4b;
+}
+
+#score{
+    display: block;
+    font-size: 48px;
+    color: #818cf8;
+}
